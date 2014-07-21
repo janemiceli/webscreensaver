@@ -40,6 +40,7 @@
             this.webBrowser.ScriptErrorsSuppressed = true;
             this.webBrowser.Size = new System.Drawing.Size(284, 262);
             this.webBrowser.TabIndex = 0;
+            this.webBrowser.Url = new System.Uri("http://janemiceli.github.io/matrix", System.UriKind.Absolute);
             // 
             // ScreensaverForm
             // 
