@@ -1,0 +1,8 @@
+C:\Users\Jane\Documents\GitHub\webscreensaver\bin\Release\Web-Page-Screensaver.exe
+C:\Users\Jane\Documents\GitHub\webscreensaver\bin\Release\Web-Page-Screensaver.pdb
+C:\Users\Jane\Documents\GitHub\webscreensaver\obj\Release\pl.polidea.lab.Web_Page_Screensaver.PreferencesForm.resources
+C:\Users\Jane\Documents\GitHub\webscreensaver\obj\Release\Web_Page_Screensaver.Properties.Resources.resources
+C:\Users\Jane\Documents\GitHub\webscreensaver\obj\Release\pl.polidea.lab.Web_Page_Screensaver.ScreensaverForm.resources
+C:\Users\Jane\Documents\GitHub\webscreensaver\obj\Release\Web-Page-Screensaver.csproj.GenerateResource.Cache
+C:\Users\Jane\Documents\GitHub\webscreensaver\obj\Release\Web-Page-Screensaver.exe
+C:\Users\Jane\Documents\GitHub\webscreensaver\obj\Release\Web-Page-Screensaver.pdb

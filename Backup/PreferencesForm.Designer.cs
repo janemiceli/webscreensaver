@@ -53,7 +53,7 @@
             this.linkLabel1.Size = new System.Drawing.Size(249, 13);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "http://janemiceli.github.io/matrix";
+            this.linkLabel1.Text = "http://code.google.com/p/web-page-screensaver/";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
