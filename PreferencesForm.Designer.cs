@@ -1,4 +1,4 @@
-﻿namespace pl.polidea.lab.Web_Page_Screensaver
+﻿namespace MiceliMatrix
 {
     partial class PreferencesForm
     {
@@ -50,7 +50,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(12, 31);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(249, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(159, 13);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "http://janemiceli.github.io/matrix";
@@ -71,6 +71,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(246, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 

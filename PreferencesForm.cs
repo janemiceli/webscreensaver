@@ -8,7 +8,7 @@ using Microsoft.Win32;
 using System.Text;
 using System.Windows.Forms;
 
-namespace pl.polidea.lab.Web_Page_Screensaver
+namespace MiceliMatrix
 {
     public partial class PreferencesForm : Form
     {
@@ -20,7 +20,7 @@ namespace pl.polidea.lab.Web_Page_Screensaver
         private void PreferencesForm_Load(object sender, EventArgs e)
         {
             RegistryKey reg = Registry.CurrentUser.CreateSubKey(Program.KEY);
-            textBox1.Text = (string)reg.GetValue("Url", "http://www.polidea.pl");
+            textBox1.Text = (string)reg.GetValue("Url", "http://www.janemiceli.com");
             reg.Close();
         }
 
@@ -49,6 +49,11 @@ namespace pl.polidea.lab.Web_Page_Screensaver
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

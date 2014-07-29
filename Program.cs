@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using pl.polidea.lab.Web_Page_Screensaver;
+using MiceliMatrix;
 
-namespace pl.polidea.lab.Web_Page_Screensaver
+namespace MiceliMatrix
 {
     static class Program
     {
-        public static readonly string KEY = "Software\\Web-Page-Screensaver";  
+        public static readonly string KEY = "Software\\MiceliMatrix";  
 
         [STAThread]
         static void Main(string[] args)
