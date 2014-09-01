@@ -1,9 +1,0 @@
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.csproj.GenerateResource.Cache
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\bin\Debug\MiceliMatrix.exe
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\bin\Debug\MiceliMatrix.pdb
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.Properties.Resources.resources
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.exe
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.pdb
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.PreferencesForm.resources
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.ScreensaverForm.resources
-C:\Users\Jane.Miceli\Documents\GitHub\webscreensaver\obj\Debug\MiceliMatrix.csprojResolveAssemblyReference.cache

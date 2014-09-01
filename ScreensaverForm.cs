@@ -7,9 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Win32;
-using System.Diagnostics;
 
-namespace MiceliMatrix
+namespace pl.polidea.lab.Web_Page_Screensaver
 {
     public partial class ScreensaverForm : Form
     {
@@ -26,12 +25,8 @@ namespace MiceliMatrix
 
         private void ScreensaverForm_Load(object sender, EventArgs e)
         {
-            ProcessStartInfo startInfo = new ProcessStartInfo("chrome.exe");
             RegistryKey reg = Registry.CurrentUser.CreateSubKey(Program.KEY);
-            webBrowser.Navigate((string)reg.GetValue("Url", "http://janemiceli.com"));
-            String url = (string)reg.GetValue("Url", "http://janemiceli.com");
-            startInfo.Arguments = @" --incognito --kiosk http://janemiceli.github.io/matrix";
-            Process.Start(startInfo);
+            webBrowser.Navigate((string)reg.GetValue("Url", "http://www.polidea.pl"));
             reg.Close();
         }
 
@@ -39,11 +34,6 @@ namespace MiceliMatrix
         {
             if (StartTime.AddSeconds(1) < DateTime.Now)
                 Close();
-        }
-
-        private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
         }
 
     }

@@ -1,4 +1,4 @@
-﻿namespace MiceliMatrix
+﻿namespace pl.polidea.lab.Web_Page_Screensaver
 {
     partial class ScreensaverForm
     {
@@ -36,12 +36,11 @@
             this.webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.webBrowser.Location = new System.Drawing.Point(0, 0);
             this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser.Name = "matrix";
+            this.webBrowser.Name = "webBrowser";
+            this.webBrowser.ScriptErrorsSuppressed = true;
             this.webBrowser.Size = new System.Drawing.Size(284, 262);
             this.webBrowser.TabIndex = 0;
             this.webBrowser.Url = new System.Uri("http://janemiceli.github.io/matrix", System.UriKind.Absolute);
-            this.webBrowser.ScriptErrorsSuppressed = true;
-            this.webBrowser.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser_DocumentCompleted);
             // 
             // ScreensaverForm
             // 
@@ -52,8 +51,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "matrix";
-            this.Text = "matrix";
+            this.Name = "ScreensaverForm";
+            this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ScreensaverForm_Load);
             this.ResumeLayout(false);
